@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <title>layout</title>
+    <style>
+      @media(max-width:600px){
+          #container{
+              flex-direction: column;
+          }
+      }
+        #container{
+            height:100px;
+            width:95%;
+            background-color:rgb(216, 230, 230);
+            margin-left:63px;
+            padding:20px;
+
+        }
+        .image{
+            width:25%;
+            height:80px;
+          
+            margin-left:90px;
+            /* padding:12px; */
+            float:left;
+            border-radius:10px;
+        }
+       .image img{
+            width:20%;
+            height:60px;
+             border-radius:80%;
+             margin:5px;
+             float:left;
+        }
+        .image  h2{
+            height:10px;
+            text-align: left;
+        }
+        #block_1{
+            background-color: rgb(200, 200, 78);
+        }
+        #block_3{
+            background-color: rgb(53, 241, 223);
+        }
+        #block_2{
+              background-color: rgb(43, 43, 185);
+        }
+     #Head > h1{
+         margin-left:550px;
+         font-weight: bolder;
+         color: rgb(38, 38, 148);
+     }
+       #option{
+            display:flex;
+            width:40%;
+            height:30px;
+           margin:auto;
+       border:1px solid black;
+      
+        }
+     .training_type{
+         width:80%;
+         border-radius:5px;
+         padding:4px;
+     }
+     #last_option{
+         margin-left:25px;
+     }
+     #first_option{
+          background-color: rgb(53, 241, 223);
+     }
+     #photo{
+         display:flex;
+         width: 75%;
+         height:200px;
+         margin:auto;
+         padding:30px;
+       
+     }
+     #photo img{
+         margin-left:50px;
+         width:28%;
+         height:200px;
+         border-radius:10px;
+     }
+     .detail{
+         width:28%;
+         height:250px;
+         background-color: rgb(216, 230, 230);
+         margin-left:10px;
+        
+     }
+     .detail p{
+        
+         width:28%;
+         height:10px;
+     }
+      .detail h2{
+   
+         width:25%;
+         height:10px;
+     }
+      .detail span{
+         
+         width:28%;
+         height:10px;
+     }
+     #Apply{
+         width:50%;
+         margin-left:20px;
+         height:35px;
+         border-radius:5px;
+         border:1px solid rgb(8, 243, 243);
+         color:rgb(2, 163, 163);
+         background-color: rgb(233, 236, 236);
+     }
+     #info{
+         display:flex;
+         margin-left:200px;
+     }
+    </style>
+    <body>
+        <div id="container">
+            <div class="image" id="block_1">
+                <img src="https://via.placeholder.com/140x100"/>
+                <h2>Scholarship</h2>
+                <p>Avaiable</p>
+            </div>
+            <div class="image" id="block_2">
+                <img src="https://via.placeholder.com/140x100" />
+                <h2>Scholarship</h2>
+                <p>Avaiable</p>
+            </div>
+            <div class="image" id="block_3">
+                <img src="https://via.placeholder.com/140x100" />
+                <h2>Scholarship</h2>
+                <p>Avaiable</p>
+            </div>
+        </div>
+        <div id="Head">
+            <h1>Popular Pragramme</h1>
+        </div>
+        <div id="option">
+            <div class="training_type" id="first_option">Graduate</div>
+            <div class="training_type">Postgraduate</div>
+            <div class="training_type">PHD Scholarship</div>
+            <div class="training_type" id="last_option">Training</div>
+        </div>
+        <div id="photo">
+            <img src="https://via.placeholder.com/150"/>
+            <img src="https://via.placeholder.com/150" />
+            <img src="https://via.placeholder.com/150" />
+        </div>
+        <div id="info">
+        <div class="detail">
+            <p>Agriculture</p>
+            <h2>Chemical engneering</h2>
+            <br>
+            <span>Lorem ipsum dolor sit amet,</span><br>
+            <span>consectetur adipiscing elit,sed</span><br>
+            <span>do eiusmod tempor incididunt ut</span><br>
+            <br>
+          
+            <button type="Apply" id="Apply">APPLY NOW</button>
+        </div>
+
+        <div class="detail">
+           
+                <p>Agriculture</p>
+                <h2>Chemical engneering</h2>
+                <br>
+                <span>Lorem ipsum dolor sit amet,</span><br>
+                <span>consectetur adipiscing elit,sed</span><br>
+                <span>do eiusmod tempor incididunt ut</span><br>
+                <br>
+           
+                <button type="Apply" id="Apply">APPLY NOW</button>
+            </div>
+            <div class="detail">
+            
+                <p>Agriculture</p>
+                <h2>Chemical engneering</h2>
+                <br>
+                <span>Lorem ipsum dolor sit amet,</span><br>
+                <span>consectetur adipiscing elit,sed</span><br>
+                <span>do eiusmod tempor incididunt ut</span><br>
+                <br>
+             
+                <button type="Apply" id="Apply">APPLY NOW</button>
+            </div>
+            
+    
+        </div>
+    </body>
+</html>
